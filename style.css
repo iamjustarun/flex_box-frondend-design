@@ -1,0 +1,127 @@
+                            /* flex box */
+                            /* flexbox is layout model and very useful to work in the              */
+
+/* .container{} */
+/* ,item{width,height,body-color,margin}; */
+/* Flex Container Properties
+
+display
+flex-direction
+justify-content
+align-items
+flex-wrap
+align-content
+
+Flex Item Properties
+align-self
+order
+flex-grow
+flex-shrink
+flex-basis */
+/* :only-child will be a flex container */
+    
+
+
+
+
+
+
+
+
+
+
+/* html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+/* for mobile first */
+/* 
+
+/* 576 992px */
+/* 
+img{
+    width: 100%;
+}
+@media(min-width: 576px)
+{
+    img{
+        width: 49%;
+    }
+}
+
+@media(min-width: 992px)
+{
+    img{
+        width: 24%;
+    }
+}
+@media(min-width: 576)
+{} */
+
+/* For desktop first */
+
+
+
+/* 576 992px */
+/* 
+img {
+    width: 25%;
+}
+
+@media(max-width: 992px) {
+    img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 576px) {
+    img {
+        width: 100%;
+    }
+} */
+
+/* On screen sizes >= 756px */
+/* @media only screen
+ and (min-width:400px) 
+ and (max-width: 600px)
+   { h1 {
+        color: red;
+    }
+} */
+
+/* @media(min-width:756px)
+{
+    h1{
+        color:red;
+    }
+} */
+/* 
+Responsive Design Checklist
+1.
+2.
+3.
+4.
+5.
+6.
+1.Fluid Layouts - Does your content rearrange itself on different devices?
+2.Images - Doyour images maintain good aspect ratios on all devices? Are they appropriate
+sizes on each device?
+3.Text - Your text should be a •comfortable* size with "comfortable" spacing on every device.
+No hard and fast rules here, but generally, keep your body text around 16 pixels, and no
+more than 700 pixels wide on any device.
+4.Overflow - Nothing should overflow the screen (i.e. cut-off images or text)
+5.Full-width mobile content - As a general rule of thumb, dont show columns on mobile
+devices, and make everything 100% width of the screen.
+1.General Useability - Are your buttons big enough to click on a mobile device? Are the most
+important things showing first? I could get into a long checklist on this one, but just have a
+friend use your site on a mobile device and desktop device. They will quickly be able to
+notice anything that doesn't • feel • right. */ 
+
+

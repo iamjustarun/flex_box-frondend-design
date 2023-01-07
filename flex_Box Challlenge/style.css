@@ -48,7 +48,7 @@ body {
 .header img {
     border-radius: 50%;
     margin-right: 10px;
-    border: 2px solid ;
+    border: 2px solid;
 }
 
 .grid-item {
@@ -65,21 +65,26 @@ body {
     margin-bottom: 20px;
     font-size: 1.2rem;
 }
-.grid-item #para{
+
+.grid-item #para {
     opacity: 70%;
     font-weight: 600;
 }
-.header-txt #verified{
+
+.header-txt #verified {
     opacity: 50%;
 }
-#quote{
-    position:absolute;
-    right:15%;
-    top:10%;
-    z-index:-5; /* to make the quote watermark   */
+
+#quote {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    z-index: -5;
+    /* to make the quote watermark   */
 
 }
-/* @media(min-width:576px) {
+
+@media(min-width:576px) {
     .container {
         max-width: 1100px;
         display: flex;
@@ -118,10 +123,52 @@ body {
     #layout-3 {
         flex-basis: 35%;
     }
-} */
+}
 
 @media(min-width:800px) {
     .container {
+        max-width: 1100px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+
+    #layout-5 {
+        flex-basis: 25%;
+    }
+
+
+    #main-left {
+        flex-basis: 75%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #main-left .grid-item {
+        margin-right: 15px;
+    }
+
+    #top,
+    #bottom {
+        flex-basis: 50%;
+        display: flex;
+    }
+
+    #layout-1,
+    #layout-4 {
+        flex-basis: 65%;
+    }
+
+    #layout-2,
+    #layout-3 {
+        flex-basis: 35%;
+    }
+}
+
+/* @media(min-width:800px) {} */
+
+/* .container {
         max-width: 1100px;
         display: flex;
         margin: 0 auto;
@@ -157,6 +204,4 @@ body {
     #layout-2,
     #layout-3 {
         flex-basis: 35%;
-    }
-
-}
+    } */

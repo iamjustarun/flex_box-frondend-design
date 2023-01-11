@@ -1,0 +1,26 @@
+justify content 
+align-items
+
+-->Adding grid glutter
+putting margin in the grid
+ie row gap and column gap
+1.grid-auto-flow:row/column ie flex direction
+2.Explacite grid and implasit grid
+grid-auto-rows:75px;
+grid-auto-column:75px;
+minmax(50px auto)
+
+
+/* Using Css Grid and FlexBox TI */
+Using CSS Grid and Flexbox Together
+Use Grid when
+• You need full control of rows AND columns (examples: full page layouts, gallery items)
+• You want to explicitly define the layout regardless of content size (i.e. if you are using
+
+Flexbox and it starts to get really complicated with a bunch of heights and widths, you
+probably should be using Grid)
+Use Flexbox when...
+• Your content is a row OR column (examples: horizontal navbar, vertical sidebar)
+• You want the size of items to determine layout
+
+justify-content:space-between

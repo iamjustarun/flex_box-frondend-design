@@ -28,7 +28,7 @@ body {
 }
 
 #top-section {
-    height: 40%;
+    height: 35%;
     width: 100%;
     padding-left: 25px;
     padding-right: 10px;
@@ -50,13 +50,13 @@ body {
 #bottom-section {
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 65%;
 }
 
 #bottom-left-section {
 
     flex-basis: 50%;
-    height: 100%;
+    /* height: 100%; */
     padding-left: 25px;
     background-color: #2ab2af;
     color: aliceblue;
